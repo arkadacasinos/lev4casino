@@ -15,6 +15,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="ru" className="bg-background">
       <head>
+        <meta name="yandex-verification" content="ab3e10d48785b476" />
         <title>Lev Casino — официальный сайт, зеркало и бонус</title>
         <meta
           name="description"
